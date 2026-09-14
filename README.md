@@ -7,18 +7,18 @@ A structured collection of C programming exercises, POSIX systems-programming ex
 - **C fundamentals** — arithmetic, arrays, bitwise operations, conditional logic, enumerations, loops, strings, and structures.
 - **Memory management** — examples covering dynamic allocation with `malloc()` and `calloc()`.
 - **Processes and POSIX** — process creation, file I/O, standard-stream redirection, pipes, memory mapping, and signals.
-- **Source archive** — the original Git metadata and compressed objects preserved for traceability and potential future recovery.
 - **Applications** — local installation-related material kept outside the source-code topics.
+- **Workbench** — the single intake location for new exercises, projects, and files before they are classified.
 
 ## Repository layout
 
 ```text
 .
-├── 00_Source_Archive/              # Original Git objects and metadata
-├── 01_C_Fundamentals/              # Language-level C exercises
-├── 02_Memory_Management/           # Dynamic memory examples
-├── 03_Processes_and_POSIX/         # Processes, IPC, signals, and file operations
-├── 04_Applications/                # Local application-related files
+├── C_Fundamentals/                 # Language-level C exercises
+├── Memory_Management/              # Dynamic memory examples
+├── Processes_and_POSIX/            # Processes, IPC, signals, and file operations
+├── Applications/                   # Local application-related files
+├── Workbench/                      # Workspace for new, unclassified work
 └── homework18.c                    # Original Homework repository source file
 ```
 
@@ -47,9 +47,9 @@ make clean
 
 ## Notes
 
-- The original source hierarchy under `Fundamentals/`, `Memory/`, and `Processes/` is retained for the complete course collection; the numbered English directories provide a curated, documented organization of recovered materials.
-- `04_Applications/ChatGPT/chatgpt_amd64.deb` is intentionally ignored by Git because its size exceeds GitHub's normal 100 MB file limit.
-- Network and GIS exercises are not part of the recovered subset in the numbered directories. The original course tree may include additional networking material.
+- The original source hierarchy under `Fundamentals/`, `Memory/`, and `Processes/` is retained for the complete course collection; the English directories provide a curated, documented organization of recovered materials.
+- `Applications/ChatGPT/chatgpt_amd64.deb` is intentionally ignored by Git because its size exceeds GitHub's normal 100 MB file limit.
+- Network and GIS exercises are not part of the recovered subset in the curated directories. The original course tree may include additional networking material.
 
 ## License
 
